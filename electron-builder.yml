@@ -1,5 +1,5 @@
-appId: xyz.irrvlo.juice
-productName: Juice Client
+appId: Mushroom.Client
+productName: Mushroom Client
 directories:
   output: "build"
 npmRebuild: false
@@ -9,21 +9,21 @@ win:
       arch:
         - x64
         - ia32
-  icon: "src/assets/img/icon.png"
+  icon: "/alphabet.png"
   artifactName: "${name}-setup-win-${arch}-${version}.${ext}"
 mac:
   target: dmg
-  icon: "src/assets/img/icon.icns"
+  icon: "/alphabet.png"
   artifactName: "${name}-setup-mac-${version}.${ext}"
 linux:
   target:
     - AppImage
     - tar.gz
   category: Game
-  icon: "src/assets/img/icon.png"
+  icon: "/alphabet.png"
   artifactName: "${name}-${version}-linux-${arch}.${ext}"
 publish:
   - provider: github
-    owner: irrvlo
-    repo: juice-client
+    owner: TTVpoopooumgood
+    repo: Mushroom-client
     releaseType: draft
