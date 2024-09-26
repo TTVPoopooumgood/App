@@ -9,18 +9,18 @@ win:
       arch:
         - x64
         - ia32
-  icon: "/alphabet.png"
+  icon: "https://raw.githubusercontent.com/xx5905499/1_xx5_1/refs/heads/main/mushroom.png"
   artifactName: "${name}-setup-win-${arch}-${version}.${ext}"
 mac:
   target: dmg
-  icon: "/alphabet.png"
+  icon: "https://raw.githubusercontent.com/xx5905499/1_xx5_1/refs/heads/main/mushroom.png"
   artifactName: "${name}-setup-mac-${version}.${ext}"
 linux:
   target:
     - AppImage
     - tar.gz
   category: Game
-  icon: "/alphabet.png"
+  icon: "https://raw.githubusercontent.com/xx5905499/1_xx5_1/refs/heads/main/mushroom.png"
   artifactName: "${name}-${version}-linux-${arch}.${ext}"
 publish:
   - provider: github
